@@ -1,115 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="3" failures="0" errors="0" skipped="0">
-  <testsuite timestamp="2025-08-27T22:04:58" time="134.632" tests="3" failures="0" errors="0" skipped="0">
+  <testsuite timestamp="2025-08-28T22:03:17" time="130.245" tests="3" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Sanity Tests"/>
       <property name="capabilities" value="chrome.139_0_7258_139.windows"/>
       <property name="file" value="file:///D:/a/1/s/test/specs/General/sanity.spec.js"/>
     </properties>
-    <testcase classname="chrome.139_0_7258_139.windows.Sanity_Tests" name="Should open Funding Asset page" time="26.998">
+    <testcase classname="chrome.139_0_7258_139.windows.Sanity_Tests" name="Should open Funding Asset page" time="27.547">
       <system-out><![CDATA[
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Asset"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Asset\"}"}]}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Asset"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Asset\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Asset"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Asset\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element - {"using":"xpath","value":"//*[@id=\"__tile53\"]"}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element - {"using":"xpath","value":"//*[@id=\"__tile53\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"__tile53\"]"}
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element/f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.75/click - {}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element/f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.74/click - {}
 RESULT: {}
-COMMAND: GET /session/471cc00bf29eaa87fbd91098ed939a6f/screenshot - {}
+COMMAND: GET /session/cd362f3edff278a55dea86d11fa5fb0a/screenshot - {}
 RESULT: {}
 RESULT: undefined
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element - {"using":"xpath","value":"//*[@id=\"__tile53\"]"}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element - {"using":"xpath","value":"//*[@id=\"__tile53\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"__tile53\"]"}
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element/f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.186/click - {}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element/f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.185/click - {}
 RESULT: undefined
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element - {"using":"xpath","value":"//*[@id=\"__tile53\"]"}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element - {"using":"xpath","value":"//*[@id=\"__tile53\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"__tile53\"]"}
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element/f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.186/click - {}
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"shellAppTitle"},"wdio_ui5_key":"shellAppTitle"}]}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element/f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.185/click - {}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"shellAppTitle"},"wdio_ui5_key":"shellAppTitle"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"shellAppTitle"},"wdio_ui5_key":"shellAppTitle"}]}
 RESULT: undefined
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.221"},"getTitle",[]]}
-RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.221"},"getTitle",[]]}
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"backBtn"},"wdio_ui5_key":"backBtn"}]}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.220"},"getTitle",[]]}
+RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.220"},"getTitle",[]]}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"backBtn"},"wdio_ui5_key":"backBtn"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"backBtn"},"wdio_ui5_key":"backBtn"}]}
 RESULT: undefined
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element - {"using":"xpath","value":"//*[@id=\"backBtn\"]"}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element - {"using":"xpath","value":"//*[@id=\"backBtn\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"backBtn\"]"}
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element/f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.222/click - {}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element/f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.221/click - {}
 RESULT: {}
-COMMAND: GET /session/471cc00bf29eaa87fbd91098ed939a6f/screenshot - {}
+COMMAND: GET /session/cd362f3edff278a55dea86d11fa5fb0a/screenshot - {}
 RESULT: {}
-COMMAND: GET /session/471cc00bf29eaa87fbd91098ed939a6f/screenshot - {}
+COMMAND: GET /session/cd362f3edff278a55dea86d11fa5fb0a/screenshot - {}
 ]]></system-out>
     </testcase>
-    <testcase classname="chrome.139_0_7258_139.windows.Sanity_Tests" name="Should open Funding Debtor page" time="25.531">
+    <testcase classname="chrome.139_0_7258_139.windows.Sanity_Tests" name="Should open Funding Debtor page" time="25.678">
       <system-out><![CDATA[
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Debtor"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Debtor\"}"}]}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Debtor"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Debtor\"}"}]}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Debtor"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Debtor\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element - {"using":"xpath","value":"//*[@id=\"__tile54\"]"}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element - {"using":"xpath","value":"//*[@id=\"__tile54\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"__tile54\"]"}
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element/f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.225/click - {}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element/f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.224/click - {}
 RESULT: {}
-COMMAND: GET /session/471cc00bf29eaa87fbd91098ed939a6f/screenshot - {}
+COMMAND: GET /session/cd362f3edff278a55dea86d11fa5fb0a/screenshot - {}
 RESULT: {}
 RESULT: undefined
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element - {"using":"xpath","value":"//*[@id=\"__tile54\"]"}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element - {"using":"xpath","value":"//*[@id=\"__tile54\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"__tile54\"]"}
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element/f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.311/click - {}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element/f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.310/click - {}
 RESULT: undefined
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element - {"using":"xpath","value":"//*[@id=\"__tile54\"]"}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element - {"using":"xpath","value":"//*[@id=\"__tile54\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"__tile54\"]"}
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element/f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.311/click - {}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element/f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.310/click - {}
 RESULT: undefined
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.221"},"getTitle",[]]}
-RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.221"},"getTitle",[]]}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.220"},"getTitle",[]]}
+RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.220"},"getTitle",[]]}
 RESULT: undefined
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element/f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.222/click - {}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element/f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.221/click - {}
 RESULT: {}
-COMMAND: GET /session/471cc00bf29eaa87fbd91098ed939a6f/screenshot - {}
+COMMAND: GET /session/cd362f3edff278a55dea86d11fa5fb0a/screenshot - {}
 RESULT: {}
-COMMAND: GET /session/471cc00bf29eaa87fbd91098ed939a6f/screenshot - {}
+COMMAND: GET /session/cd362f3edff278a55dea86d11fa5fb0a/screenshot - {}
 ]]></system-out>
     </testcase>
-    <testcase classname="chrome.139_0_7258_139.windows.Sanity_Tests" name="Should open Asset Warehouse page" time="27.821">
+    <testcase classname="chrome.139_0_7258_139.windows.Sanity_Tests" name="Should open Asset Warehouse page" time="28.018">
       <system-out><![CDATA[
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Asset Warehouse"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Asset Warehouse\"}"}]}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Asset Warehouse"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Asset Warehouse\"}"}]}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Asset Warehouse"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Asset Warehouse\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element - {"using":"xpath","value":"//*[@id=\"__tile55\"]"}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element - {"using":"xpath","value":"//*[@id=\"__tile55\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"__tile55\"]"}
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element/f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.318/click - {}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element/f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.318/click - {}
 RESULT: {}
-COMMAND: GET /session/471cc00bf29eaa87fbd91098ed939a6f/screenshot - {}
+COMMAND: GET /session/cd362f3edff278a55dea86d11fa5fb0a/screenshot - {}
 RESULT: {}
 RESULT: undefined
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element - {"using":"xpath","value":"//*[@id=\"__tile55\"]"}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element - {"using":"xpath","value":"//*[@id=\"__tile55\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"__tile55\"]"}
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element/f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.442/click - {}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element/f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.487/click - {}
 RESULT: undefined
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element - {"using":"xpath","value":"//*[@id=\"__tile55\"]"}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element - {"using":"xpath","value":"//*[@id=\"__tile55\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"__tile55\"]"}
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element/f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.442/click - {}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element/f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.487/click - {}
 RESULT: undefined
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.221"},"getTitle",[]]}
-RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.221"},"getTitle",[]]}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.220"},"getTitle",[]]}
+RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.220"},"getTitle",[]]}
 RESULT: undefined
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element/f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.222/click - {}
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element - {"using":"xpath","value":"//*[@id=\"backBtn\"]"}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element/f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.221/click - {}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element - {"using":"xpath","value":"//*[@id=\"backBtn\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"backBtn\"]"}
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element/f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.222/click - {}
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element - {"using":"xpath","value":"//*[@id=\"backBtn\"]"}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element/f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.221/click - {}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element - {"using":"xpath","value":"//*[@id=\"backBtn\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"backBtn\"]"}
-COMMAND: POST /session/471cc00bf29eaa87fbd91098ed939a6f/element/f.F1EAD04D2504704DCC1C9F87A661620E.d.614377E8B52DC64DF47543B0A6BB967D.e.448/click - {}
+COMMAND: POST /session/cd362f3edff278a55dea86d11fa5fb0a/element/f.D90031E1F5E34CF4DDF6687573C6D628.d.EDFB00D87E625DE07A5B90E68AEC9537.e.493/click - {}
 RESULT: {}
-COMMAND: GET /session/471cc00bf29eaa87fbd91098ed939a6f/screenshot - {}
+COMMAND: GET /session/cd362f3edff278a55dea86d11fa5fb0a/screenshot - {}
 RESULT: {}
-COMMAND: GET /session/471cc00bf29eaa87fbd91098ed939a6f/screenshot - {}
-COMMAND: DELETE /session/471cc00bf29eaa87fbd91098ed939a6f - {}
+COMMAND: GET /session/cd362f3edff278a55dea86d11fa5fb0a/screenshot - {}
+COMMAND: DELETE /session/cd362f3edff278a55dea86d11fa5fb0a - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
