@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="1" failures="1" errors="1" skipped="0">
-  <testsuite timestamp="2025-09-06T22:05:56" time="96.272" tests="1" failures="1" errors="1" skipped="0">
+  <testsuite timestamp="2025-09-07T22:08:04" time="96.363" tests="1" failures="1" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Sanity Tests"/>
       <property name="capabilities" value="chrome.139_0_7258_155.windows"/>
       <property name="file" value="file:///D:/a/1/s/test/specs/General/sanity.spec.js"/>
     </properties>
-    <testcase classname="chrome.139_0_7258_155.windows.Sanity_Tests" name="before all hook for Sanity Tests" time="96.266">
+    <testcase classname="chrome.139_0_7258_155.windows.Sanity_Tests" name="before all hook for Sanity Tests" time="96.358">
       <failure/>
       <error message="waitUntil condition timed out after 60000ms"/>
       <system-err><![CDATA[
