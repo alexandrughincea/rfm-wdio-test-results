@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="1" failures="1" errors="1" skipped="0">
-  <testsuite timestamp="2025-09-06T22:45:17" time="96.093" tests="1" failures="1" errors="1" skipped="0">
+  <testsuite timestamp="2025-09-07T22:44:51" time="96.359" tests="1" failures="1" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Replenishment"/>
       <property name="capabilities" value="chrome.139_0_7258_155.windows"/>
       <property name="file" value="file:///D:/a/1/s/test/specs/BusinessOperations/Replenishment.spec.js"/>
     </properties>
-    <testcase classname="chrome.139_0_7258_155.windows.Replenishment" name="before all hook for Replenishment" time="96.088">
+    <testcase classname="chrome.139_0_7258_155.windows.Replenishment" name="before all hook for Replenishment" time="96.354">
       <failure/>
       <error message="waitUntil condition timed out after 60000ms"/>
       <system-err><![CDATA[
