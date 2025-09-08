@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="1" failures="1" errors="1" skipped="0">
-  <testsuite timestamp="2025-09-07T00:54:36" time="96.399" tests="1" failures="1" errors="1" skipped="0">
+  <testsuite timestamp="2025-09-08T00:54:41" time="96.209" tests="1" failures="1" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="FundingContract"/>
       <property name="capabilities" value="chrome.139_0_7258_155.windows"/>
       <property name="file" value="file:///D:/a/1/s/test/specs/BusinessObjects/FundingContract.spec.js"/>
     </properties>
-    <testcase classname="chrome.139_0_7258_155.windows.FundingContract" name="before all hook for FundingContract" time="96.392">
+    <testcase classname="chrome.139_0_7258_155.windows.FundingContract" name="before all hook for FundingContract" time="96.203">
       <failure/>
       <error message="waitUntil condition timed out after 60000ms"/>
       <system-err><![CDATA[
