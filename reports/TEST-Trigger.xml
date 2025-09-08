@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="1" failures="1" errors="1" skipped="0">
-  <testsuite timestamp="2025-09-07T00:34:44" time="96.432" tests="1" failures="1" errors="1" skipped="0">
+  <testsuite timestamp="2025-09-08T00:37:05" time="96.332" tests="1" failures="1" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Trigger"/>
       <property name="capabilities" value="chrome.139_0_7258_155.windows"/>
       <property name="file" value="file:///D:/a/1/s/test/specs/BusinessObjects/Trigger.spec.js"/>
     </properties>
-    <testcase classname="chrome.139_0_7258_155.windows.Trigger" name="before all hook for Trigger" time="96.427">
+    <testcase classname="chrome.139_0_7258_155.windows.Trigger" name="before all hook for Trigger" time="96.326">
       <failure/>
       <error message="waitUntil condition timed out after 60000ms"/>
       <system-err><![CDATA[
