@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="1" failures="1" errors="1" skipped="0">
-  <testsuite timestamp="2025-09-13T22:34:59" time="96.197" tests="1" failures="1" errors="1" skipped="0">
+  <testsuite timestamp="2025-09-14T22:35:10" time="95.789" tests="1" failures="1" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Funding Transaction"/>
       <property name="capabilities" value="chrome.140_0_7339_81.windows"/>
       <property name="file" value="file:///D:/a/1/s/test/specs/BusinessObjects/FundingTransaction.spec.js"/>
     </properties>
-    <testcase classname="chrome.140_0_7339_81.windows.Funding_Transaction" name="before all hook for Funding Transaction" time="96.185">
+    <testcase classname="chrome.140_0_7339_81.windows.Funding_Transaction" name="before all hook for Funding Transaction" time="95.782">
       <failure/>
       <error message="waitUntil condition timed out after 60000ms"/>
       <system-err><![CDATA[
