@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="1" failures="1" errors="1" skipped="0">
-  <testsuite timestamp="2025-09-15T23:35:29" time="95.951" tests="1" failures="1" errors="1" skipped="0">
+  <testsuite timestamp="2025-09-16T23:34:54" time="96.203" tests="1" failures="1" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="ABS Schedule"/>
       <property name="capabilities" value="chrome.140_0_7339_81.windows"/>
       <property name="file" value="file:///D:/a/1/s/test/specs/ABS/ABSSchedule.spec.js"/>
     </properties>
-    <testcase classname="chrome.140_0_7339_81.windows.ABS_Schedule" name="before all hook for ABS Schedule" time="95.946">
+    <testcase classname="chrome.140_0_7339_81.windows.ABS_Schedule" name="before all hook for ABS Schedule" time="96.196">
       <failure/>
       <error message="waitUntil condition timed out after 60000ms"/>
       <system-err><![CDATA[
