@@ -1,176 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="29" failures="13" errors="13" skipped="13">
-  <testsuite timestamp="2025-09-26T22:51:06" time="465.77" tests="29" failures="13" errors="13" skipped="13">
+  <testsuite timestamp="2025-09-27T22:50:57" time="445.189" tests="29" failures="13" errors="13" skipped="13">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Replenishment"/>
       <property name="capabilities" value="chrome.140_0_7339_186.windows"/>
       <property name="file" value="file:///D:/a/1/s/test/specs/BusinessOperations/Replenishment.spec.js"/>
     </properties>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should create Program" time="112.286">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should create Program" time="90.535">
       <system-out><![CDATA[
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Program"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Program\"}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Program"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Program\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Program"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Program\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element - {"using":"xpath","value":"//*[@id=\"__tile30\"]"}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element - {"using":"xpath","value":"//*[@id=\"__tile30\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"__tile30\"]"}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element/f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.70/click - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element/f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.69/click - {}
 RESULT: {}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Create","controlType":"sap.m.Button"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Createsap.m.Button"}]}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Create","controlType":"sap.m.Button"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Createsap.m.Button"}]}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Create","controlType":"sap.m.Button"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Createsap.m.Button"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Create\"]"}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Create\"]"}
 RESULT: {}
 RESULT: {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Create\"]"}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element/f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.195/click - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element/f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.195/click - {}
 RESULT: {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::FundingScope-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::FundingScope-inner"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::FundingScope-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::FundingScope-inner"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::FundingScope-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::FundingScope-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"Total","selector":{"id":"CreateDialog::xRFMxCU_ProgramType::FundingScope-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"Total","selector":{"id":"CreateDialog::xRFMxCU_ProgramType::FundingScope-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
 RESULT: {"script":"<script> [20 bytes]","args":[{"enterText":"Total","selector":{"id":"CreateDialog::xRFMxCU_ProgramType::FundingScope-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::ValidFrom-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::ValidFrom-inner"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::ValidFrom-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::ValidFrom-inner"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::ValidFrom-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::ValidFrom-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"2025-01-01","selector":{"id":"CreateDialog::xRFMxCU_ProgramType::ValidFrom-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"2025-01-01","selector":{"id":"CreateDialog::xRFMxCU_ProgramType::ValidFrom-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
 RESULT: {"script":"<script> [20 bytes]","args":[{"enterText":"2025-01-01","selector":{"id":"CreateDialog::xRFMxCU_ProgramType::ValidFrom-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::PortfolioId-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::PortfolioId-inner"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::PortfolioId-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::PortfolioId-inner"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::PortfolioId-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::PortfolioId-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"1","selector":{"id":"CreateDialog::xRFMxCU_ProgramType::PortfolioId-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"1","selector":{"id":"CreateDialog::xRFMxCU_ProgramType::PortfolioId-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
 RESULT: {"script":"<script> [20 bytes]","args":[{"enterText":"1","selector":{"id":"CreateDialog::xRFMxCU_ProgramType::PortfolioId-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.programui::xRFMxCU_ProgramObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.programui::xRFMxCU_ProgramObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.programui::xRFMxCU_ProgramObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element - {"using":"xpath","value":"//*[@id=\"__button198\"]"}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element - {"using":"xpath","value":"//*[@id=\"__button198\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"__button198\"]"}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element/f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.283/click - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element/f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.298/click - {}
 RESULT: {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"EUR","selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner","interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"EUR","selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner","interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
 RESULT: {"script":"<script> [20 bytes]","args":[{"enterText":"EUR","selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner","interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"1,000,000,000.00","selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner","interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"1,000,000,000.00","selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner","interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
 RESULT: {"script":"<script> [20 bytes]","args":[{"enterText":"1,000,000,000.00","selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner","interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::ValidTo::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::ValidTo::Field-edit"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::ValidTo::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::ValidTo::Field-edit"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::ValidTo::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::ValidTo::Field-edit"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData2::FormElement::DataField::CompanyCode::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData2::FormElement::DataField::CompanyCode::Field-edit-inner"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData2::FormElement::DataField::CompanyCode::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData2::FormElement::DataField::CompanyCode::Field-edit-inner"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData2::FormElement::DataField::CompanyCode::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData2::FormElement::DataField::CompanyCode::Field-edit-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create\"]"}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create\"]"}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element/f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.340/click - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element/f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.353/click - {}
 RESULT: {}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramFundingTypeType::FundingType-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramFundingTypeType::FundingType-inner"}]}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramFundingTypeType::FundingType-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramFundingTypeType::FundingType-inner"}]}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramFundingTypeType::FundingType-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramFundingTypeType::FundingType-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"External Funding (40)","selector":{"id":"CreateDialog::xRFMxCU_ProgramFundingTypeType::FundingType-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"External Funding (40)","selector":{"id":"CreateDialog::xRFMxCU_ProgramFundingTypeType::FundingType-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
 RESULT: {}
 RESULT: {"script":"<script> [20 bytes]","args":[{"enterText":"External Funding (40)","selector":{"id":"CreateDialog::xRFMxCU_ProgramFundingTypeType::FundingType-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_Program::_AllowedFundingType-footer","searchOpenDialogs":true},"wdio_ui5_key":"CreateDialogxRFMxCU_Program::_AllowedFundingType-footer"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_Program::_AllowedFundingType-footer","searchOpenDialogs":true},"wdio_ui5_key":"CreateDialogxRFMxCU_Program::_AllowedFundingType-footer"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_Program::_AllowedFundingType-footer","searchOpenDialogs":true},"wdio_ui5_key":"CreateDialogxRFMxCU_Program::_AllowedFundingType-footer"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element - {"using":"xpath","value":"//*[@id=\"CreateDialog::xRFMxCU_Program::_AllowedFundingType-footer\"]"}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element - {"using":"xpath","value":"//*[@id=\"CreateDialog::xRFMxCU_Program::_AllowedFundingType-footer\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"CreateDialog::xRFMxCU_Program::_AllowedFundingType-footer\"]"}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element/f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.518/click - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element/f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.533/click - {}
 RESULT: {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element - {"using":"xpath","value":"//*[@id=\"__button211\"]"}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element - {"using":"xpath","value":"//*[@id=\"__button211\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"__button211\"]"}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element/f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.520/click - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element/f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.535/click - {}
 RESULT: {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::_fc"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::_fc"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::_fc"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::_fc"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::_fc"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::_fc"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::_fc\"]"}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::_fc\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::_fc\"]"}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element/f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.523/click - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element/f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.538/click - {}
 RESULT: {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"id":"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"id":"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"id":"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply\"]"}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply\"]"}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element/f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.507/click - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element/f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.527/click - {}
 RESULT: {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::ObjectPage-anchBar-rfm.programui::xRFMxCU_ProgramObjectPage--fe::EditableHeaderSection-anchor","interaction":{"idSuffix":"text"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::ObjectPage-anchBar-rfm.programui::xRFMxCU_ProgramObjectPage--fe::EditableHeaderSection-anchor"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::ObjectPage-anchBar-rfm.programui::xRFMxCU_ProgramObjectPage--fe::EditableHeaderSection-anchor","interaction":{"idSuffix":"text"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::ObjectPage-anchBar-rfm.programui::xRFMxCU_ProgramObjectPage--fe::EditableHeaderSection-anchor"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::ObjectPage-anchBar-rfm.programui::xRFMxCU_ProgramObjectPage--fe::EditableHeaderSection-anchor","interaction":{"idSuffix":"text"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::ObjectPage-anchBar-rfm.programui::xRFMxCU_ProgramObjectPage--fe::EditableHeaderSection-anchor"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save\"]"}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save\"]"}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element/f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.431/click - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element/f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.444/click - {}
 RESULT: {}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::Form::headerFieldsGP1::DataField::ProgramId::Field-content"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::Form::headerFieldsGP1::DataField::ProgramId::Field-content"}]}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::Form::headerFieldsGP1::DataField::ProgramId::Field-content"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::Form::headerFieldsGP1::DataField::ProgramId::Field-content"}]}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::Form::headerFieldsGP1::DataField::ProgramId::Field-content"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::Form::headerFieldsGP1::DataField::ProgramId::Field-content"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.371"},"getText",[]]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.384"},"getText",[]]}
 RESULT: {}
-RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.371"},"getText",[]]}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType"}]}
+RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.384"},"getText",[]]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType\"]"}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType\"]"}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element/f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.353/click - {}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","properties":{"text":"OK"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapm.Button{\"text\":\"OK\"}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element/f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.366/click - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","properties":{"text":"OK"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapm.Button{\"text\":\"OK\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","properties":{"text":"OK"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapm.Button{\"text\":\"OK\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"backBtn"},"wdio_ui5_key":"backBtn"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"backBtn"},"wdio_ui5_key":"backBtn"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"backBtn"},"wdio_ui5_key":"backBtn"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element - {"using":"xpath","value":"//*[@id=\"backBtn\"]"}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element - {"using":"xpath","value":"//*[@id=\"backBtn\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"backBtn\"]"}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element/f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.593/click - {}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/element/f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.593/click - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element/f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.605/click - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/element/f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.605/click - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 ]]></system-out>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should create asset 1" time="12.814">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should create asset 1" time="12.098">
       <skipped/>
       <system-out><![CDATA[
 RESULT: {}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Asset"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Asset\"}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Asset"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Asset\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Asset"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Asset\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.assetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Create","controlType":"sap.m.Button"},"wdio_ui5_key":"rfmassetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Createsap.m.Button"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.assetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Create","controlType":"sap.m.Button"},"wdio_ui5_key":"rfmassetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Createsap.m.Button"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.assetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Create","controlType":"sap.m.Button"},"wdio_ui5_key":"rfmassetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Createsap.m.Button"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_AssetType::AssetIdExtern-inner","controlType":"sap.ui.mdc.field.FieldInput","searchOpenDialogs":true},"wdio_ui5_key":"CreateDialogxRFMxCU_AssetType::AssetIdExtern-innersap.ui.mdc.field.FieldInput"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_AssetType::AssetIdExtern-inner","controlType":"sap.ui.mdc.field.FieldInput","searchOpenDialogs":true},"wdio_ui5_key":"CreateDialogxRFMxCU_AssetType::AssetIdExtern-innersap.ui.mdc.field.FieldInput"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_AssetType::AssetIdExtern-inner","controlType":"sap.ui.mdc.field.FieldInput","searchOpenDialogs":true},"wdio_ui5_key":"CreateDialogxRFMxCU_AssetType::AssetIdExtern-innersap.ui.mdc.field.FieldInput"}]}
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
@@ -179,7 +179,7 @@ TypeError: inputField.setValue is not a function
     at async Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:280:17)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should create asset 1" time="10.516">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should create asset 1" time="10.552">
       <failure/>
       <error message="inputField.setValue is not a function"/>
       <system-out><![CDATA[
@@ -187,8 +187,8 @@ RESULT: {}
 RESULT: undefined
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
@@ -198,19 +198,19 @@ TypeError: inputField.setValue is not a function
     at async Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:280:17)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should create asset 2" time="17.92">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should create asset 2" time="18.081">
       <skipped/>
       <system-out><![CDATA[
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: undefined
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"id":"rfm.assetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Create","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmassetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Create"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"id":"rfm.assetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Create","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmassetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Create"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"id":"rfm.assetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Create","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmassetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Create"}]}
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
@@ -220,18 +220,18 @@ TypeError: inputField.setValue is not a function
     at async Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:925:23)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should create asset 2" time="17.989">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should create asset 2" time="18.011">
       <failure/>
       <error message="inputField.setValue is not a function"/>
       <system-out><![CDATA[
 RESULT: undefined
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"id":"rfm.assetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Create","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmassetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Create"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"id":"rfm.assetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Create","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmassetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Create"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"id":"rfm.assetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Create","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmassetui::xRFMxCU_AssetList--fe::table::allTab::LineItem::StandardAction::Create"}]}
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
@@ -241,73 +241,73 @@ TypeError: inputField.setValue is not a function
     at async Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:925:23)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should create Transaction" time="51.226">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should create Transaction" time="51.949">
       <skipped/>
       <system-out><![CDATA[
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Transaction"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Transaction\"}"}]}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Transaction"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Transaction\"}"}]}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Transaction"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Transaction\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionList--fe::table::allTab::LineItem::StandardAction::Create","controlType":"sap.m.Button"},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionList--fe::table::allTab::LineItem::StandardAction::Createsap.m.Button"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionList--fe::table::allTab::LineItem::StandardAction::Create","controlType":"sap.m.Button"},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionList--fe::table::allTab::LineItem::StandardAction::Createsap.m.Button"}]}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionList--fe::table::allTab::LineItem::StandardAction::Create","controlType":"sap.m.Button"},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionList--fe::table::allTab::LineItem::StandardAction::Createsap.m.Button"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_TransactionType::ProgramId-inner-vhi","searchOpenDialogs":true},"wdio_ui5_key":"CreateDialogxRFMxCU_TransactionType::ProgramId-inner-vhi"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_TransactionType::ProgramId-inner-vhi","searchOpenDialogs":true},"wdio_ui5_key":"CreateDialogxRFMxCU_TransactionType::ProgramId-inner-vhi"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_TransactionType::ProgramId-inner-vhi","searchOpenDialogs":true},"wdio_ui5_key":"CreateDialogxRFMxCU_TransactionType::ProgramId-inner-vhi"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"ProgramId::VH::Dialog::qualifier::-search-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"I"}},"wdio_ui5_key":"ProgramIdVH::Dialog::qualifier::-search-inner"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"ProgramId::VH::Dialog::qualifier::-search-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"I"}},"wdio_ui5_key":"ProgramIdVH::Dialog::qualifier::-search-inner"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"ProgramId::VH::Dialog::qualifier::-search-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"I"}},"wdio_ui5_key":"ProgramIdVH::Dialog::qualifier::-search-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"ProgramId::VH::Dialog::qualifier::::Table-innerTable-rows-row0","searchOpenDialogs":true},"wdio_ui5_key":"ProgramIdVH::Dialog::qualifier::::Table-innerTable-rows-row0"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"ProgramId::VH::Dialog::qualifier::::Table-innerTable-rows-row0","searchOpenDialogs":true},"wdio_ui5_key":"ProgramIdVH::Dialog::qualifier::::Table-innerTable-rows-row0"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"ProgramId::VH::Dialog::qualifier::::Table-innerTable-rows-row0","searchOpenDialogs":true},"wdio_ui5_key":"ProgramIdVH::Dialog::qualifier::::Table-innerTable-rows-row0"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_Transaction-footer","searchOpenDialogs":true},"wdio_ui5_key":"CreateDialogxRFMxCU_Transaction-footer"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_Transaction-footer","searchOpenDialogs":true},"wdio_ui5_key":"CreateDialogxRFMxCU_Transaction-footer"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_Transaction-footer","searchOpenDialogs":true},"wdio_ui5_key":"CreateDialogxRFMxCU_Transaction-footer"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::Term::FormElement::DataField::AssetCashflowDateFrom::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::Term::FormElement::DataField::AssetCashflowDateFrom::Field-edit"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::Term::FormElement::DataField::AssetCashflowDateFrom::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::Term::FormElement::DataField::AssetCashflowDateFrom::Field-edit"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::Term::FormElement::DataField::AssetCashflowDateFrom::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::Term::FormElement::DataField::AssetCashflowDateFrom::Field-edit"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::Term::FormElement::DataField::AssetCashflowDateTo::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::Term::FormElement::DataField::AssetCashflowDateTo::Field-edit"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::Term::FormElement::DataField::AssetCashflowDateTo::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::Term::FormElement::DataField::AssetCashflowDateTo::Field-edit"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::Term::FormElement::DataField::AssetCashflowDateTo::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::Term::FormElement::DataField::AssetCashflowDateTo::Field-edit"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::ObjectPage-anchBar-rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::EditableHeaderSection-anchor","interaction":{"idSuffix":"text"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::ObjectPage-anchBar-rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::EditableHeaderSection-anchor"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::ObjectPage-anchBar-rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::EditableHeaderSection-anchor","interaction":{"idSuffix":"text"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::ObjectPage-anchBar-rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::EditableHeaderSection-anchor"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::ObjectPage-anchBar-rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::EditableHeaderSection-anchor","interaction":{"idSuffix":"text"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::ObjectPage-anchBar-rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::EditableHeaderSection-anchor"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::TransactionId::Field-display"},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::TransactionId::Field-display"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::TransactionId::Field-display"},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::TransactionId::Field-display"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::TransactionId::Field-display"},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::TransactionId::Field-display"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::ObjectPage-anchBar-rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::FacetSection::FundingScopeCollection-anchor"},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::ObjectPage-anchBar-rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::FacetSection::FundingScopeCollection-anchor"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::ObjectPage-anchBar-rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::FacetSection::FundingScopeCollection-anchor"},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::ObjectPage-anchBar-rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::FacetSection::FundingScopeCollection-anchor"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::ObjectPage-anchBar-rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::FacetSection::FundingScopeCollection-anchor"},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::ObjectPage-anchBar-rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::FacetSection::FundingScopeCollection-anchor"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.ui.mdc.field.FieldInput","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","bindingPath":{"path":"","propertyPath":"/conditions","modelName":"$field"},"ancestor":{"controlType":"sap.ui.mdc.Field","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","bindingPath":{"path":"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=false)/_TransactionCFPart(TransactionId='undefined',CashFlowPartType='1',IsActiveEntity=false)","propertyPath":"__EntityControl/Updatable"}},"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.ui.mdc.field.FieldInput{\"path\":\"\",\"propertyPath\":\"/conditions\",\"modelName\":\"$field\"}{\"controlType\":\"sap.ui.mdc.Field\",\"viewName\":\"sap.fe.templates.ObjectPage.ObjectPage\",\"viewId\":\"rfm.transactionui::xRFMxCU_TransactionObjectPage\",\"bindingPath\":{\"path\":\"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=false)/_TransactionCFPart(TransactionId='undefined',CashFlowPartType='1',IsActiveEntity=false)\",\"propertyPath\":\"__EntityControl/Updatable\"}}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.ui.mdc.field.FieldInput","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","bindingPath":{"path":"","propertyPath":"/conditions","modelName":"$field"},"ancestor":{"controlType":"sap.ui.mdc.Field","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","bindingPath":{"path":"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=false)/_TransactionCFPart(TransactionId='undefined',CashFlowPartType='1',IsActiveEntity=false)","propertyPath":"__EntityControl/Updatable"}},"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.ui.mdc.field.FieldInput{\"path\":\"\",\"propertyPath\":\"/conditions\",\"modelName\":\"$field\"}{\"controlType\":\"sap.ui.mdc.Field\",\"viewName\":\"sap.fe.templates.ObjectPage.ObjectPage\",\"viewId\":\"rfm.transactionui::xRFMxCU_TransactionObjectPage\",\"bindingPath\":{\"path\":\"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=false)/_TransactionCFPart(TransactionId='undefined',CashFlowPartType='1',IsActiveEntity=false)\",\"propertyPath\":\"__EntityControl/Updatable\"}}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.ui.mdc.field.FieldInput","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","bindingPath":{"path":"","propertyPath":"/conditions","modelName":"$field"},"ancestor":{"controlType":"sap.ui.mdc.Field","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","bindingPath":{"path":"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=false)/_TransactionCFPart(TransactionId='undefined',CashFlowPartType='1',IsActiveEntity=false)","propertyPath":"__EntityControl/Updatable"}},"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.ui.mdc.field.FieldInput{\"path\":\"\",\"propertyPath\":\"/conditions\",\"modelName\":\"$field\"}{\"controlType\":\"sap.ui.mdc.Field\",\"viewName\":\"sap.fe.templates.ObjectPage.ObjectPage\",\"viewId\":\"rfm.transactionui::xRFMxCU_TransactionObjectPage\",\"bindingPath\":{\"path\":\"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=false)/_TransactionCFPart(TransactionId='undefined',CashFlowPartType='1',IsActiveEntity=false)\",\"propertyPath\":\"__EntityControl/Updatable\"}}"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::table::_TransactionCFPart::LineItem-innerTable-rows-row1","interaction":{"idSuffix":"col0"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::table::_TransactionCFPart::LineItem-innerTable-rows-row1"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::table::_TransactionCFPart::LineItem-innerTable-rows-row1","interaction":{"idSuffix":"col0"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::table::_TransactionCFPart::LineItem-innerTable-rows-row1"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::table::_TransactionCFPart::LineItem-innerTable-rows-row1","interaction":{"idSuffix":"col0"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::table::_TransactionCFPart::LineItem-innerTable-rows-row1"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.ui.mdc.field.FieldInput","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","bindingPath":{"path":"","propertyPath":"/conditions","modelName":"$field"},"ancestor":{"controlType":"sap.ui.mdc.Field","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","bindingPath":{"path":"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=false)/_TransactionCFPart(TransactionId='undefined',CashFlowPartType='2',IsActiveEntity=false)","propertyPath":"__EntityControl/Updatable"}},"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.ui.mdc.field.FieldInput{\"path\":\"\",\"propertyPath\":\"/conditions\",\"modelName\":\"$field\"}{\"controlType\":\"sap.ui.mdc.Field\",\"viewName\":\"sap.fe.templates.ObjectPage.ObjectPage\",\"viewId\":\"rfm.transactionui::xRFMxCU_TransactionObjectPage\",\"bindingPath\":{\"path\":\"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=false)/_TransactionCFPart(TransactionId='undefined',CashFlowPartType='2',IsActiveEntity=false)\",\"propertyPath\":\"__EntityControl/Updatable\"}}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.ui.mdc.field.FieldInput","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","bindingPath":{"path":"","propertyPath":"/conditions","modelName":"$field"},"ancestor":{"controlType":"sap.ui.mdc.Field","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","bindingPath":{"path":"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=false)/_TransactionCFPart(TransactionId='undefined',CashFlowPartType='2',IsActiveEntity=false)","propertyPath":"__EntityControl/Updatable"}},"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.ui.mdc.field.FieldInput{\"path\":\"\",\"propertyPath\":\"/conditions\",\"modelName\":\"$field\"}{\"controlType\":\"sap.ui.mdc.Field\",\"viewName\":\"sap.fe.templates.ObjectPage.ObjectPage\",\"viewId\":\"rfm.transactionui::xRFMxCU_TransactionObjectPage\",\"bindingPath\":{\"path\":\"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=false)/_TransactionCFPart(TransactionId='undefined',CashFlowPartType='2',IsActiveEntity=false)\",\"propertyPath\":\"__EntityControl/Updatable\"}}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.ui.mdc.field.FieldInput","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","bindingPath":{"path":"","propertyPath":"/conditions","modelName":"$field"},"ancestor":{"controlType":"sap.ui.mdc.Field","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","bindingPath":{"path":"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=false)/_TransactionCFPart(TransactionId='undefined',CashFlowPartType='2',IsActiveEntity=false)","propertyPath":"__EntityControl/Updatable"}},"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.ui.mdc.field.FieldInput{\"path\":\"\",\"propertyPath\":\"/conditions\",\"modelName\":\"$field\"}{\"controlType\":\"sap.ui.mdc.Field\",\"viewName\":\"sap.fe.templates.ObjectPage.ObjectPage\",\"viewId\":\"rfm.transactionui::xRFMxCU_TransactionObjectPage\",\"bindingPath\":{\"path\":\"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=false)/_TransactionCFPart(TransactionId='undefined',CashFlowPartType='2',IsActiveEntity=false)\",\"propertyPath\":\"__EntityControl/Updatable\"}}"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::FooterBar::StandardAction::Save","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::FooterBar::StandardAction::Save"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::FooterBar::StandardAction::Save","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::FooterBar::StandardAction::Save"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::FooterBar::StandardAction::Save","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::FooterBar::StandardAction::Save"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::FooterBar::MessageButton-img"},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::FooterBar::MessageButton-img"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::FooterBar::MessageButton-img"},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::FooterBar::MessageButton-img"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::FooterBar::MessageButton-img"},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::FooterBar::MessageButton-img"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_transaction.v0001.Fix::com.sap.gateway.srvd.rfm.ui_transaction.v0001.xRFMxCU_TransactionType","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_transaction.v0001.Fix::com.sap.gateway.srvd.rfm.ui_transaction.v0001.xRFMxCU_TransactionType"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_transaction.v0001.Fix::com.sap.gateway.srvd.rfm.ui_transaction.v0001.xRFMxCU_TransactionType","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_transaction.v0001.Fix::com.sap.gateway.srvd.rfm.ui_transaction.v0001.xRFMxCU_TransactionType"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.transactionui::xRFMxCU_TransactionObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_transaction.v0001.Fix::com.sap.gateway.srvd.rfm.ui_transaction.v0001.xRFMxCU_TransactionType","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmtransactionui::xRFMxCU_TransactionObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_transaction.v0001.Fix::com.sap.gateway.srvd.rfm.ui_transaction.v0001.xRFMxCU_TransactionType"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","properties":{"text":"Success"},"searchOpenDialogs":true},"wdio_ui5_key":"sapm.Text{\"text\":\"Success\"}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","properties":{"text":"Success"},"searchOpenDialogs":true},"wdio_ui5_key":"sapm.Text{\"text\":\"Success\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","properties":{"text":"Success"},"searchOpenDialogs":true},"wdio_ui5_key":"sapm.Text{\"text\":\"Success\"}"}]}
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
@@ -318,7 +318,7 @@ Received: undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:1867:34)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should create Transaction" time="40.985">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should create Transaction" time="41.052">
       <failure/>
       <error message="expect(received).toEqual(expected) // deep equality&#xA;&#xA;Expected: &quot;Success&quot;&#xA;Received: undefined"/>
       <system-out><![CDATA[
@@ -329,7 +329,7 @@ RESULT: undefined
 RESULT: undefined
 RESULT: undefined
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
 RESULT: undefined
 RESULT: undefined
@@ -345,8 +345,8 @@ RESULT: undefined
 RESULT: undefined
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
@@ -358,41 +358,41 @@ Received: undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:1867:34)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should filter created Transaction" time="17.99">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should filter created Transaction" time="18.188">
       <system-out><![CDATA[
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Replenishment"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Replenishment\"}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Replenishment"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Replenishment\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Replenishment"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Replenishment\"}"}]}
 RESULT: undefined
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplTransactionList--fe::FilterBar::xRFMxCU_ReplTransaction::FilterField::TransactionId-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplTransactionList--fe::FilterBar::xRFMxCU_ReplTransaction::FilterField::TransactionId-inner"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplTransactionList--fe::FilterBar::xRFMxCU_ReplTransaction::FilterField::TransactionId-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplTransactionList--fe::FilterBar::xRFMxCU_ReplTransaction::FilterField::TransactionId-inner"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplTransactionList--fe::FilterBar::xRFMxCU_ReplTransaction::FilterField::TransactionId-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplTransactionList--fe::FilterBar::xRFMxCU_ReplTransaction::FilterField::TransactionId-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplTransactionList--fe::FilterBar::xRFMxCU_ReplTransaction-btnSearch","interaction":{"idSuffix":"content"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplTransactionList--fe::FilterBar::xRFMxCU_ReplTransaction-btnSearch"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplTransactionList--fe::FilterBar::xRFMxCU_ReplTransaction-btnSearch","interaction":{"idSuffix":"content"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplTransactionList--fe::FilterBar::xRFMxCU_ReplTransaction-btnSearch"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplTransactionList--fe::FilterBar::xRFMxCU_ReplTransaction-btnSearch","interaction":{"idSuffix":"content"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplTransactionList--fe::FilterBar::xRFMxCU_ReplTransaction-btnSearch"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","viewName":"sap.fe.templates.ListReport.ListReport","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionList","bindingPath":{"path":"/xRFMxCU_ReplTransaction('undefined')","propertyPath":"TransactionId"}},"wdio_ui5_key":"sapfe.templates.ListReport.ListReportsap.m.Text{\"path\":\"/xRFMxCU_ReplTransaction('undefined')\",\"propertyPath\":\"TransactionId\"}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","viewName":"sap.fe.templates.ListReport.ListReport","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionList","bindingPath":{"path":"/xRFMxCU_ReplTransaction('undefined')","propertyPath":"TransactionId"}},"wdio_ui5_key":"sapfe.templates.ListReport.ListReportsap.m.Text{\"path\":\"/xRFMxCU_ReplTransaction('undefined')\",\"propertyPath\":\"TransactionId\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","viewName":"sap.fe.templates.ListReport.ListReport","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionList","bindingPath":{"path":"/xRFMxCU_ReplTransaction('undefined')","propertyPath":"TransactionId"}},"wdio_ui5_key":"sapfe.templates.ListReport.ListReportsap.m.Text{\"path\":\"/xRFMxCU_ReplTransaction('undefined')\",\"propertyPath\":\"TransactionId\"}"}]}
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 ]]></system-out>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check if a new replenishment can be created and deleted" time="7.357">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check if a new replenishment can be created and deleted" time="8.008">
       <skipped/>
       <system-out><![CDATA[
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.RadioButton","viewName":"sap.fe.templates.ListReport.ListReport","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionList","properties":{"editable":true}},"wdio_ui5_key":"sapfe.templates.ListReport.ListReportsap.m.RadioButton{\"editable\":true}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.RadioButton","viewName":"sap.fe.templates.ListReport.ListReport","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionList","properties":{"editable":true}},"wdio_ui5_key":"sapfe.templates.ListReport.ListReportsap.m.RadioButton{\"editable\":true}"}]}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.RadioButton","viewName":"sap.fe.templates.ListReport.ListReport","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionList","properties":{"editable":true}},"wdio_ui5_key":"sapfe.templates.ListReport.ListReportsap.m.RadioButton{\"editable\":true}"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplTransactionList--fe::table::xRFMxCU_ReplTransaction::LineItem::CustomAction::Replenish","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplTransactionList--fe::table::xRFMxCU_ReplTransaction::LineItem::CustomAction::Replenish"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplTransactionList--fe::table::xRFMxCU_ReplTransaction::LineItem::CustomAction::Replenish","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplTransactionList--fe::table::xRFMxCU_ReplTransaction::LineItem::CustomAction::Replenish"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplTransactionList--fe::table::xRFMxCU_ReplTransaction::LineItem::CustomAction::Replenish","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplTransactionList--fe::table::xRFMxCU_ReplTransaction::LineItem::CustomAction::Replenish"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::ReplenishmentDetails::FormElement::DataField::ReplenishmentNumber::Field-display"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::ReplenishmentDetails::FormElement::DataField::ReplenishmentNumber::Field-display"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::ReplenishmentDetails::FormElement::DataField::ReplenishmentNumber::Field-display"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::ReplenishmentDetails::FormElement::DataField::ReplenishmentNumber::Field-display"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::ReplenishmentDetails::FormElement::DataField::ReplenishmentNumber::Field-display"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::ReplenishmentDetails::FormElement::DataField::ReplenishmentNumber::Field-display"}]}
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
@@ -403,7 +403,7 @@ Received: undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:2088:32)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check if a new replenishment can be created and deleted" time="5.463">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check if a new replenishment can be created and deleted" time="5.66">
       <failure/>
       <error message="expect(received).toEqual(expected) // deep equality&#xA;&#xA;Expected: &quot;1&quot;&#xA;Received: undefined"/>
       <system-out><![CDATA[
@@ -411,8 +411,8 @@ RESULT: undefined
 RESULT: undefined
 RESULT: {}
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
@@ -428,28 +428,28 @@ Received: undefined
       <system-out><![CDATA[
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 ]]></system-out>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check navigation to selection rules" time="8.593">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check navigation to selection rules" time="8.591">
       <skipped/>
       <system-out><![CDATA[
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPageDynamicHeaderTitle-_actionsToolbar"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPageDynamicHeaderTitle-_actionsToolbar"}]}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-RESULT: {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPageDynamicHeaderTitle-_actionsToolbar"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPageDynamicHeaderTitle-_actionsToolbar"}]}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPageDynamicHeaderTitle-_actionsToolbar"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPageDynamicHeaderTitle-_actionsToolbar"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForIntentBasedNavigation::SelectionRule::manage","interaction":{"idSuffix":"content"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForIntentBasedNavigation::SelectionRule::manage"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForIntentBasedNavigation::SelectionRule::manage","interaction":{"idSuffix":"content"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForIntentBasedNavigation::SelectionRule::manage"}]}
+RESULT: {}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForIntentBasedNavigation::SelectionRule::manage","interaction":{"idSuffix":"content"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForIntentBasedNavigation::SelectionRule::manage"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"shellAppTitle"},"wdio_ui5_key":"shellAppTitle"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"shellAppTitle"},"wdio_ui5_key":"shellAppTitle"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"shellAppTitle"},"wdio_ui5_key":"shellAppTitle"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.594"},"getTitle",[]]}
-RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.594"},"getTitle",[]]}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.606"},"getTitle",[]]}
+RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.606"},"getTitle",[]]}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
@@ -460,7 +460,7 @@ Received: "Funding Program"
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:2217:23)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check navigation to selection rules" time="5.696">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check navigation to selection rules" time="5.798">
       <failure/>
       <error message="expect(received).toEqual(expected) // deep equality&#xA;&#xA;Expected: &quot;Selection Rule&quot;&#xA;Received: &quot;Funding Program&quot;"/>
       <system-out><![CDATA[
@@ -468,10 +468,10 @@ RESULT: undefined
 RESULT: undefined
 RESULT: {}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.594"},"getTitle",[]]}
-RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.D1D46CCEA0708342AF6BA5F72872C986.d.A653462F7D030BAB23DDB4B0A4B84CAF.e.594"},"getTitle",[]]}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.606"},"getTitle",[]]}
+RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.003C181B8A03AF4D5E439570A8B78E14.d.11EEE051182A24833934E59BE42E9FD1.e.606"},"getTitle",[]]}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
@@ -482,20 +482,20 @@ Received: "Funding Program"
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:2217:23)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check if the right transaction is present and navigate to it" time="1.995">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check if the right transaction is present and navigate to it" time="2.589">
       <skipped/>
       <system-out><![CDATA[
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::TransactionDetails-anchor"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::TransactionDetails-anchor"}]}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::TransactionDetails-anchor"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::TransactionDetails-anchor"}]}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::TransactionDetails-anchor"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::TransactionDetails-anchor"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::TransactionDetails::FormElement::DataFieldWithIntentBasedNavigation::TransactionId::FundingTransaction::Manage::Field-display"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::TransactionDetails::FormElement::DataFieldWithIntentBasedNavigation::TransactionId::FundingTransaction::Manage::Field-display"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::TransactionDetails::FormElement::DataFieldWithIntentBasedNavigation::TransactionId::FundingTransaction::Manage::Field-display"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::TransactionDetails::FormElement::DataFieldWithIntentBasedNavigation::TransactionId::FundingTransaction::Manage::Field-display"}]}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::TransactionDetails::FormElement::DataFieldWithIntentBasedNavigation::TransactionId::FundingTransaction::Manage::Field-display"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::TransactionDetails::FormElement::DataFieldWithIntentBasedNavigation::TransactionId::FundingTransaction::Manage::Field-display"}]}
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
@@ -503,14 +503,14 @@ Error: TransactionId before navigation is undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:2249:19)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check if the right transaction is present and navigate to it" time="0.455">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check if the right transaction is present and navigate to it" time="0.607">
       <failure/>
       <error message="TransactionId before navigation is undefined"/>
       <system-out><![CDATA[
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
@@ -519,24 +519,24 @@ Error: TransactionId before navigation is undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:2249:19)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check navigation from one asset from Assets section" time="1.808">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check navigation from one asset from Assets section" time="2.099">
       <skipped/>
       <system-out><![CDATA[
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/url - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/url - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::Assets-anchor","interaction":{"idSuffix":"text"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::Assets-anchor"}]}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::Assets-anchor","interaction":{"idSuffix":"text"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::Assets-anchor"}]}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::Assets-anchor","interaction":{"idSuffix":"text"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::Assets-anchor"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Link","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage","bindingPath":{"path":"/xRFMxCU_Replenishment(ReplenishmentId=,IsActiveEntity=true)/_ReplAsset(ReplenishmentId=,AssetId=)","propertyPath":"AssetIdExtern"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Link{\"path\":\"/xRFMxCU_Replenishment(ReplenishmentId=,IsActiveEntity=true)/_ReplAsset(ReplenishmentId=,AssetId=)\",\"propertyPath\":\"AssetIdExtern\"}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Link","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage","bindingPath":{"path":"/xRFMxCU_Replenishment(ReplenishmentId=,IsActiveEntity=true)/_ReplAsset(ReplenishmentId=,AssetId=)","propertyPath":"AssetIdExtern"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Link{\"path\":\"/xRFMxCU_Replenishment(ReplenishmentId=,IsActiveEntity=true)/_ReplAsset(ReplenishmentId=,AssetId=)\",\"propertyPath\":\"AssetIdExtern\"}"}]}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Link","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage","bindingPath":{"path":"/xRFMxCU_Replenishment(ReplenishmentId=,IsActiveEntity=true)/_ReplAsset(ReplenishmentId=,AssetId=)","propertyPath":"AssetIdExtern"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Link{\"path\":\"/xRFMxCU_Replenishment(ReplenishmentId=,IsActiveEntity=true)/_ReplAsset(ReplenishmentId=,AssetId=)\",\"propertyPath\":\"AssetIdExtern\"}"}]}
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
@@ -544,18 +544,18 @@ Error: AssetIdExternBeforeNav before navigation is undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:2328:23)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check navigation from one asset from Assets section" time="0.588">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check navigation from one asset from Assets section" time="0.672">
       <failure/>
       <error message="AssetIdExternBeforeNav before navigation is undefined"/>
       <system-out><![CDATA[
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/url - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/url - {}
 RESULT: {}
 RESULT: {}
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
@@ -563,19 +563,19 @@ Error: AssetIdExternBeforeNav before navigation is undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:2328:23)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check the addition of asset to the outflow" time="3">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check the addition of asset to the outflow" time="2.938">
       <skipped/>
       <system-out><![CDATA[
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {}
 RESULT: {}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.CheckBox","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage","properties":{"editable":true},"ancestor":{"controlType":"sap.m.ColumnListItem","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage","bindingPath":{"path":"/xRFMxCU_Replenishment(ReplenishmentId=,IsActiveEntity=true)/_ReplAsset(ReplenishmentId=,AssetId=)"}}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.CheckBox{\"editable\":true}{\"controlType\":\"sap.m.ColumnListItem\",\"viewName\":\"sap.fe.templates.ObjectPage.ObjectPage\",\"viewId\":\"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage\",\"bindingPath\":{\"path\":\"/xRFMxCU_Replenishment(ReplenishmentId=,IsActiveEntity=true)/_ReplAsset(ReplenishmentId=,AssetId=)\"}}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.CheckBox","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage","properties":{"editable":true},"ancestor":{"controlType":"sap.m.ColumnListItem","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage","bindingPath":{"path":"/xRFMxCU_Replenishment(ReplenishmentId=,IsActiveEntity=true)/_ReplAsset(ReplenishmentId=,AssetId=)"}}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.CheckBox{\"editable\":true}{\"controlType\":\"sap.m.ColumnListItem\",\"viewName\":\"sap.fe.templates.ObjectPage.ObjectPage\",\"viewId\":\"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage\",\"bindingPath\":{\"path\":\"/xRFMxCU_Replenishment(ReplenishmentId=,IsActiveEntity=true)/_ReplAsset(ReplenishmentId=,AssetId=)\"}}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.CheckBox","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage","properties":{"editable":true},"ancestor":{"controlType":"sap.m.ColumnListItem","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage","bindingPath":{"path":"/xRFMxCU_Replenishment(ReplenishmentId=,IsActiveEntity=true)/_ReplAsset(ReplenishmentId=,AssetId=)"}}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.CheckBox{\"editable\":true}{\"controlType\":\"sap.m.ColumnListItem\",\"viewName\":\"sap.fe.templates.ObjectPage.ObjectPage\",\"viewId\":\"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage\",\"bindingPath\":{\"path\":\"/xRFMxCU_Replenishment(ReplenishmentId=,IsActiveEntity=true)/_ReplAsset(ReplenishmentId=,AssetId=)\"}}"}]}
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
@@ -583,15 +583,15 @@ TypeError: checkbox.getEnabled is not a function
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:2484:36)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check the addition of asset to the outflow" time="3.048">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check the addition of asset to the outflow" time="2.505">
       <failure/>
       <error message="checkbox.getEnabled is not a function"/>
       <system-out><![CDATA[
 RESULT: undefined
 RESULT: {}
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
@@ -600,22 +600,22 @@ TypeError: checkbox.getEnabled is not a function
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:2484:36)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check the action Execute" time="22.777">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check the action Execute" time="22.304">
       <skipped/>
       <system-out><![CDATA[
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.Execute::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.xRFMxCU_ReplenishmentType","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.Execute::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.xRFMxCU_ReplenishmentType"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.Execute::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.xRFMxCU_ReplenishmentType","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.Execute::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.xRFMxCU_ReplenishmentType"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.Execute::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.xRFMxCU_ReplenishmentType","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.Execute::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.xRFMxCU_ReplenishmentType"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::ReplenishmentDetails-anchor"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::ReplenishmentDetails-anchor"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::ReplenishmentDetails-anchor"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::ReplenishmentDetails-anchor"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::ReplenishmentDetails-anchor"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::ObjectPage-anchBar-rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FacetSection::ReplenishmentDetails-anchor"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::ReplenishmentDetails::FormElement::DataField::Status::Field-display"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::ReplenishmentDetails::FormElement::DataField::Status::Field-display"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::ReplenishmentDetails::FormElement::DataField::Status::Field-display"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::ReplenishmentDetails::FormElement::DataField::Status::Field-display"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::ReplenishmentDetails::FormElement::DataField::Status::Field-display"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FormContainer::ReplenishmentDetails::FormElement::DataField::Status::Field-display"}]}
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
@@ -626,7 +626,7 @@ Received: undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:2831:40)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check the action Execute" time="20.575">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check the action Execute" time="20.511">
       <failure/>
       <error message="expect(received).toEqual(expected) // deep equality&#xA;&#xA;Expected: &quot;Processed&quot;&#xA;Received: undefined"/>
       <system-out><![CDATA[
@@ -634,8 +634,8 @@ RESULT: {}
 RESULT: undefined
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
@@ -647,15 +647,15 @@ Received: undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:2831:40)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check whether the Replenishment can be found in the Business Operations tab" time="5.475">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check whether the Replenishment can be found in the Business Operations tab" time="5.58">
       <skipped/>
       <system-out><![CDATA[
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
@@ -664,14 +664,14 @@ Error: TransactionId before navigation is undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:2858:19)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check whether the Replenishment can be found in the Business Operations tab" time="5.561">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check whether the Replenishment can be found in the Business Operations tab" time="5.549">
       <failure/>
       <error message="TransactionId before navigation is undefined"/>
       <system-out><![CDATA[
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
@@ -680,16 +680,16 @@ Error: TransactionId before navigation is undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:2858:19)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check if the navigation from Business Operations back to the Replenishment works" time="6.67">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check if the navigation from Business Operations back to the Replenishment works" time="5.986">
       <skipped/>
       <system-out><![CDATA[
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","bindingPath":{"path":"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=true)/_BusinessOperations(BusinessOperationId=,TransactionId='undefined')","propertyPath":"KeyDate"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Text{\"path\":\"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=true)/_BusinessOperations(BusinessOperationId=,TransactionId='undefined')\",\"propertyPath\":\"KeyDate\"}"}]}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","bindingPath":{"path":"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=true)/_BusinessOperations(BusinessOperationId=,TransactionId='undefined')","propertyPath":"KeyDate"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Text{\"path\":\"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=true)/_BusinessOperations(BusinessOperationId=,TransactionId='undefined')\",\"propertyPath\":\"KeyDate\"}"}]}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.transactionui::xRFMxCU_TransactionObjectPage","bindingPath":{"path":"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=true)/_BusinessOperations(BusinessOperationId=,TransactionId='undefined')","propertyPath":"KeyDate"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Text{\"path\":\"/xRFMxCU_Transaction(TransactionId='undefined',IsActiveEntity=true)/_BusinessOperations(BusinessOperationId=,TransactionId='undefined')\",\"propertyPath\":\"KeyDate\"}"}]}
 RESULT: undefined
 RESULT: {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
@@ -698,13 +698,13 @@ Error: KeyDate before navigation is undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:2984:23)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check if the navigation from Business Operations back to the Replenishment works" time="5.533">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check if the navigation from Business Operations back to the Replenishment works" time="5.515">
       <failure/>
       <error message="KeyDate before navigation is undefined"/>
       <system-out><![CDATA[
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
@@ -713,18 +713,18 @@ Error: KeyDate before navigation is undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:2984:23)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check action Cancel" time="11.645">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check action Cancel" time="11.886">
       <skipped/>
       <system-out><![CDATA[
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.Cancel::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.xRFMxCU_ReplenishmentType","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.Cancel::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.xRFMxCU_ReplenishmentType"}]}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.Cancel::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.xRFMxCU_ReplenishmentType","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.Cancel::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.xRFMxCU_ReplenishmentType"}]}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.Cancel::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.xRFMxCU_ReplenishmentType","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.Cancel::com.sap.gateway.srvd.rfm.ui_replenishment.v0001.xRFMxCU_ReplenishmentType"}]}
 RESULT: undefined
 RESULT: {}
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
@@ -736,15 +736,15 @@ Received: undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:3078:40)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check action Cancel" time="10.478">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check action Cancel" time="10.564">
       <failure/>
       <error message="expect(received).toEqual(expected) // deep equality&#xA;&#xA;Expected: &quot;Cancelled&quot;&#xA;Received: undefined"/>
       <system-out><![CDATA[
 RESULT: undefined
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
@@ -756,26 +756,26 @@ Received: undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:3078:40)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check whether the replenishment can be found in the Replenishment History List" time="5.025">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check whether the replenishment can be found in the Replenishment History List" time="5.1">
       <skipped/>
       <system-out><![CDATA[
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FCLStandardAction::Close-img"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FCLStandardAction::Close-img"}]}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FCLStandardAction::Close-img"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FCLStandardAction::Close-img"}]}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.replenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FCLStandardAction::Close-img"},"wdio_ui5_key":"rfmreplenishmentui::xRFMxCU_ReplenishmentObjectPage--fe::FCLStandardAction::Close-img"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.ui.core.Icon","viewName":"sap.fe.templates.ListReport.ListReport","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionList","properties":{"src":{"regex":{"source":"decline"}}},"ancestor":{"controlType":"sap.m.Token","viewName":"sap.fe.templates.ListReport.ListReport","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionList","properties":{"text":"=1"}}},"wdio_ui5_key":"sapfe.templates.ListReport.ListReportsap.ui.core.Icon{\"src\":{\"regex\":{\"source\":\"decline\"}}}{\"controlType\":\"sap.m.Token\",\"viewName\":\"sap.fe.templates.ListReport.ListReport\",\"viewId\":\"rfm.replenishmentui::xRFMxCU_ReplTransactionList\",\"properties\":{\"text\":\"=1\"}}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.ui.core.Icon","viewName":"sap.fe.templates.ListReport.ListReport","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionList","properties":{"src":{"regex":{"source":"decline"}}},"ancestor":{"controlType":"sap.m.Token","viewName":"sap.fe.templates.ListReport.ListReport","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionList","properties":{"text":"=1"}}},"wdio_ui5_key":"sapfe.templates.ListReport.ListReportsap.ui.core.Icon{\"src\":{\"regex\":{\"source\":\"decline\"}}}{\"controlType\":\"sap.m.Token\",\"viewName\":\"sap.fe.templates.ListReport.ListReport\",\"viewId\":\"rfm.replenishmentui::xRFMxCU_ReplTransactionList\",\"properties\":{\"text\":\"=1\"}}"}]}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.ui.core.Icon","viewName":"sap.fe.templates.ListReport.ListReport","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionList","properties":{"src":{"regex":{"source":"decline"}}},"ancestor":{"controlType":"sap.m.Token","viewName":"sap.fe.templates.ListReport.ListReport","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionList","properties":{"text":"=1"}}},"wdio_ui5_key":"sapfe.templates.ListReport.ListReportsap.ui.core.Icon{\"src\":{\"regex\":{\"source\":\"decline\"}}}{\"controlType\":\"sap.m.Token\",\"viewName\":\"sap.fe.templates.ListReport.ListReport\",\"viewId\":\"rfm.replenishmentui::xRFMxCU_ReplTransactionList\",\"properties\":{\"text\":\"=1\"}}"}]}
 RESULT: undefined
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.ui.core.Icon","viewName":"sap.fe.templates.ListReport.ListReport","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionList","properties":{"src":{"regex":{"source":"slim\\-arrow\\-right"}}}},"wdio_ui5_key":"sapfe.templates.ListReport.ListReportsap.ui.core.Icon{\"src\":{\"regex\":{\"source\":\"slim\\\\-arrow\\\\-right\"}}}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.ui.core.Icon","viewName":"sap.fe.templates.ListReport.ListReport","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionList","properties":{"src":{"regex":{"source":"slim\\-arrow\\-right"}}}},"wdio_ui5_key":"sapfe.templates.ListReport.ListReportsap.ui.core.Icon{\"src\":{\"regex\":{\"source\":\"slim\\\\-arrow\\\\-right\"}}}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.ui.core.Icon","viewName":"sap.fe.templates.ListReport.ListReport","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionList","properties":{"src":{"regex":{"source":"slim\\-arrow\\-right"}}}},"wdio_ui5_key":"sapfe.templates.ListReport.ListReportsap.ui.core.Icon{\"src\":{\"regex\":{\"source\":\"slim\\\\-arrow\\\\-right\"}}}"}]}
 RESULT: undefined
-COMMAND: POST /session/83fb670a1a3a7e3472cae607e04b7c6d/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionObjectPage","bindingPath":{"path":"/xRFMxCU_ReplTransaction('undefined')/_Replenishment(ReplenishmentId=,IsActiveEntity=true)","propertyPath":"KeyDate"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Text{\"path\":\"/xRFMxCU_ReplTransaction('undefined')/_Replenishment(ReplenishmentId=,IsActiveEntity=true)\",\"propertyPath\":\"KeyDate\"}"}]}
+COMMAND: POST /session/82875201e11a9b21746c930be5de18d5/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionObjectPage","bindingPath":{"path":"/xRFMxCU_ReplTransaction('undefined')/_Replenishment(ReplenishmentId=,IsActiveEntity=true)","propertyPath":"KeyDate"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Text{\"path\":\"/xRFMxCU_ReplTransaction('undefined')/_Replenishment(ReplenishmentId=,IsActiveEntity=true)\",\"propertyPath\":\"KeyDate\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.replenishmentui::xRFMxCU_ReplTransactionObjectPage","bindingPath":{"path":"/xRFMxCU_ReplTransaction('undefined')/_Replenishment(ReplenishmentId=,IsActiveEntity=true)","propertyPath":"KeyDate"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Text{\"path\":\"/xRFMxCU_ReplTransaction('undefined')/_Replenishment(ReplenishmentId=,IsActiveEntity=true)\",\"propertyPath\":\"KeyDate\"}"}]}
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
@@ -783,7 +783,7 @@ Error: KeyDate after navigation is undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessOperations\Replenishment.spec.js:3178:31)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check whether the replenishment can be found in the Replenishment History List" time="2.567">
+    <testcase classname="chrome.140_0_7339_186.windows.Replenishment" name="Should check whether the replenishment can be found in the Replenishment History List" time="2.463">
       <failure/>
       <error message="KeyDate after navigation is undefined"/>
       <system-out><![CDATA[
@@ -793,13 +793,13 @@ RESULT: undefined
 RESULT: undefined
 RESULT: {}
 RESULT: undefined
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 RESULT: {}
-COMMAND: DELETE /session/83fb670a1a3a7e3472cae607e04b7c6d - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
-COMMAND: GET /session/83fb670a1a3a7e3472cae607e04b7c6d/screenshot - {}
+COMMAND: DELETE /session/82875201e11a9b21746c930be5de18d5 - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
+COMMAND: GET /session/82875201e11a9b21746c930be5de18d5/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
