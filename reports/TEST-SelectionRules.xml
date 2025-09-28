@@ -1,183 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="12" failures="5" errors="5" skipped="5">
-  <testsuite timestamp="2025-09-27T00:15:24" time="128.732" tests="12" failures="5" errors="5" skipped="5">
+  <testsuite timestamp="2025-09-28T00:23:25" time="147.632" tests="12" failures="5" errors="5" skipped="5">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Selection Rules"/>
       <property name="capabilities" value="chrome.140_0_7339_186.windows"/>
       <property name="file" value="file:///D:/a/1/s/test/specs/BusinessObjects/SelectionRules.spec.js"/>
     </properties>
-    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should create Program" time="54.689">
+    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should create Program" time="52.856">
       <system-out><![CDATA[
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Program"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Program\"}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Program"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Program\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Program"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Program\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element - {"using":"xpath","value":"//*[@id=\"__tile30\"]"}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element - {"using":"xpath","value":"//*[@id=\"__tile30\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"__tile30\"]"}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element/f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.70/click - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element/f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.70/click - {}
 RESULT: {}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Create","controlType":"sap.m.Button"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Createsap.m.Button"}]}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Create","controlType":"sap.m.Button"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Createsap.m.Button"}]}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Create","controlType":"sap.m.Button"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Createsap.m.Button"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Create\"]"}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Create\"]"}
 RESULT: {}
 RESULT: {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramList--fe::table::allTab::LineItem::StandardAction::Create\"]"}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element/f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.195/click - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element/f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.195/click - {}
 RESULT: {}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::FundingScope-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::FundingScope-inner"}]}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::FundingScope-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::FundingScope-inner"}]}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::FundingScope-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::FundingScope-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"Installment","selector":{"id":"CreateDialog::xRFMxCU_ProgramType::FundingScope-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"Installment","selector":{"id":"CreateDialog::xRFMxCU_ProgramType::FundingScope-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
 RESULT: {}
 RESULT: {"script":"<script> [20 bytes]","args":[{"enterText":"Installment","selector":{"id":"CreateDialog::xRFMxCU_ProgramType::FundingScope-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::ValidFrom-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::ValidFrom-inner"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::ValidFrom-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::ValidFrom-inner"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::ValidFrom-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::ValidFrom-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.283"},"setValue",["2025-01-01"]]}
-RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.283"},"setValue",["2025-01-01"]]}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::PortfolioId-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::PortfolioId-inner"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.282"},"setValue",["2025-01-01"]]}
+RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.282"},"setValue",["2025-01-01"]]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::PortfolioId-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::PortfolioId-inner"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramType::PortfolioId-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramType::PortfolioId-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"1","selector":{"id":"CreateDialog::xRFMxCU_ProgramType::PortfolioId-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"1","selector":{"id":"CreateDialog::xRFMxCU_ProgramType::PortfolioId-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
 RESULT: {"script":"<script> [20 bytes]","args":[{"enterText":"1","selector":{"id":"CreateDialog::xRFMxCU_ProgramType::PortfolioId-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.programui::xRFMxCU_ProgramObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.programui::xRFMxCU_ProgramObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.programui::xRFMxCU_ProgramObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element - {"using":"xpath","value":"//*[@id=\"__button198\"]"}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element - {"using":"xpath","value":"//*[@id=\"__button198\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"__button198\"]"}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element/f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.299/click - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element/f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.298/click - {}
 RESULT: {}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner"}]}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner"}]}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"EUR","selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner","interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"EUR","selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner","interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
 RESULT: {}
 RESULT: {"script":"<script> [20 bytes]","args":[{"enterText":"EUR","selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Currency::Field-edit-inner","interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"1,000,000,000.00","selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner","interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"1,000,000,000.00","selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner","interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
 RESULT: {"script":"<script> [20 bytes]","args":[{"enterText":"1,000,000,000.00","selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::Volume::Field-edit-inner","interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::ValidTo::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::ValidTo::Field-edit"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::ValidTo::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::ValidTo::Field-edit"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::ValidTo::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData1::FormElement::DataField::ValidTo::Field-edit"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData2::FormElement::DataField::CompanyCode::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData2::FormElement::DataField::CompanyCode::Field-edit-inner"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData2::FormElement::DataField::CompanyCode::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData2::FormElement::DataField::CompanyCode::Field-edit-inner"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData2::FormElement::DataField::CompanyCode::Field-edit-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--fe::FormContainer::FieldGroup::basicData2::FormElement::DataField::CompanyCode::Field-edit-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create\"]"}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::CustomSubSection::CustomDetailsSection--DetailsFundingTypesTable-content::StandardAction::Create\"]"}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element/f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.354/click - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element/f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.353/click - {}
 RESULT: {}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramFundingTypeType::FundingType-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramFundingTypeType::FundingType-inner"}]}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramFundingTypeType::FundingType-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramFundingTypeType::FundingType-inner"}]}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_ProgramFundingTypeType::FundingType-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"CreateDialogxRFMxCU_ProgramFundingTypeType::FundingType-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"30","selector":{"id":"CreateDialog::xRFMxCU_ProgramFundingTypeType::FundingType-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [20 bytes]","args":[{"enterText":"30","selector":{"id":"CreateDialog::xRFMxCU_ProgramFundingTypeType::FundingType-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
 RESULT: {}
 RESULT: {"script":"<script> [20 bytes]","args":[{"enterText":"30","selector":{"id":"CreateDialog::xRFMxCU_ProgramFundingTypeType::FundingType-inner","searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"clearTextFirst":true,"interactionType":"ENTER_TEXT"}]}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_Program::_AllowedFundingType-footer","searchOpenDialogs":true},"wdio_ui5_key":"CreateDialogxRFMxCU_Program::_AllowedFundingType-footer"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_Program::_AllowedFundingType-footer","searchOpenDialogs":true},"wdio_ui5_key":"CreateDialogxRFMxCU_Program::_AllowedFundingType-footer"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"CreateDialog::xRFMxCU_Program::_AllowedFundingType-footer","searchOpenDialogs":true},"wdio_ui5_key":"CreateDialogxRFMxCU_Program::_AllowedFundingType-footer"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element - {"using":"xpath","value":"//*[@id=\"CreateDialog::xRFMxCU_Program::_AllowedFundingType-footer\"]"}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element - {"using":"xpath","value":"//*[@id=\"CreateDialog::xRFMxCU_Program::_AllowedFundingType-footer\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"CreateDialog::xRFMxCU_Program::_AllowedFundingType-footer\"]"}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element/f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.534/click - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element/f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.530/click - {}
 RESULT: {}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.298"},"getEnabled",[]]}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.programui::xRFMxCU_ProgramObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.297"},"getEnabled",[]]}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.programui::xRFMxCU_ProgramObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.programui::xRFMxCU_ProgramObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.535"},"getEnabled",[]]}
-RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.535"},"getEnabled",[]]}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.298"},"getEnabled",[]]}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.programui::xRFMxCU_ProgramObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.531"},"getEnabled",[]]}
+RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.531"},"getEnabled",[]]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.297"},"getEnabled",[]]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.programui::xRFMxCU_ProgramObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"sap.fe.templates.ObjectPage.ObjectPage","viewId":"rfm.programui::xRFMxCU_ProgramObjectPage","properties":{"text":"Continue"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapfe.templates.ObjectPage.ObjectPagesap.m.Button{\"text\":\"Continue\"}"}]}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.535"},"getEnabled",[]]}
-RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.535"},"getEnabled",[]]}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element - {"using":"xpath","value":"//*[@id=\"__button211\"]"}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.531"},"getEnabled",[]]}
+RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.531"},"getEnabled",[]]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element - {"using":"xpath","value":"//*[@id=\"__button211\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"__button211\"]"}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element/f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.536/click - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element/f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.532/click - {}
 RESULT: {}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply"}]}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply"}]}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply\"]"}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply\"]"}
 RESULT: {}
 RESULT: {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_Program__AllowedFundingTypeObjectPage--fe::FooterBar::StandardAction::Apply\"]"}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element/f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.528/click - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element/f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.518/click - {}
 RESULT: {}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::ObjectPage-anchBar-rfm.programui::xRFMxCU_ProgramObjectPage--fe::EditableHeaderSection-anchor","interaction":{"idSuffix":"text"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::ObjectPage-anchBar-rfm.programui::xRFMxCU_ProgramObjectPage--fe::EditableHeaderSection-anchor"}]}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::ObjectPage-anchBar-rfm.programui::xRFMxCU_ProgramObjectPage--fe::EditableHeaderSection-anchor","interaction":{"idSuffix":"text"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::ObjectPage-anchBar-rfm.programui::xRFMxCU_ProgramObjectPage--fe::EditableHeaderSection-anchor"}]}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::ObjectPage-anchBar-rfm.programui::xRFMxCU_ProgramObjectPage--fe::EditableHeaderSection-anchor","interaction":{"idSuffix":"text"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::ObjectPage-anchBar-rfm.programui::xRFMxCU_ProgramObjectPage--fe::EditableHeaderSection-anchor"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit"}]}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::FormContainer::headerFieldsGP1::FormElement::DataField::Name::Field-edit"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save\"]"}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::FooterBar::StandardAction::Save\"]"}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element/f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.445/click - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element/f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.444/click - {}
 RESULT: {}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::Form::headerFieldsGP1::DataField::ProgramId::Field-content"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::Form::headerFieldsGP1::DataField::ProgramId::Field-content"}]}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::Form::headerFieldsGP1::DataField::ProgramId::Field-content"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::Form::headerFieldsGP1::DataField::ProgramId::Field-content"}]}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::Form::headerFieldsGP1::DataField::ProgramId::Field-content"},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::HeaderFacet::Form::headerFieldsGP1::DataField::ProgramId::Field-content"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.385"},"getText",[]]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.384"},"getText",[]]}
 RESULT: {}
-RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.385"},"getText",[]]}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType"}]}
+RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.384"},"getText",[]]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.programui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmprogramui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType\"]"}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element - {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"rfm.programui::xRFMxCU_ProgramObjectPage--fe::DataFieldForAction::com.sap.gateway.srvd.rfm.ui_program.v0001.Open::com.sap.gateway.srvd.rfm.ui_program.v0001.xRFMxCU_ProgramType\"]"}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element/f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.367/click - {}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","properties":{"text":"OK"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapm.Button{\"text\":\"OK\"}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element/f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.366/click - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","properties":{"text":"OK"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapm.Button{\"text\":\"OK\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","properties":{"text":"OK"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"sapm.Button{\"text\":\"OK\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"backBtn"},"wdio_ui5_key":"backBtn"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"backBtn"},"wdio_ui5_key":"backBtn"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"backBtn"},"wdio_ui5_key":"backBtn"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element - {"using":"xpath","value":"//*[@id=\"backBtn\"]"}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element - {"using":"xpath","value":"//*[@id=\"backBtn\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"backBtn\"]"}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element/f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.606/click - {}
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/element/f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.606/click - {}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element/f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.605/click - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/element/f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.605/click - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 ]]></system-out>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should filter created Program" time="8.523">
+    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should filter created Program" time="8.538">
       <skipped/>
       <system-out><![CDATA[
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Pool"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Pool\"}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Pool"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Pool\"}"}]}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.GenericTile","properties":{"header":"Funding Pool"}},"wdio_ui5_key":"sapm.GenericTile{\"header\":\"Funding Pool\"}"}]}
 RESULT: undefined
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.poolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool::FilterField::OwnerId-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmpoolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool::FilterField::OwnerId-inner"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.poolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool::FilterField::OwnerId-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmpoolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool::FilterField::OwnerId-inner"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.poolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool::FilterField::OwnerId-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmpoolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool::FilterField::OwnerId-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.poolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool::FilterField::OwnerCategory-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmpoolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool::FilterField::OwnerCategory-inner"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.poolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool::FilterField::OwnerCategory-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmpoolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool::FilterField::OwnerCategory-inner"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.poolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool::FilterField::OwnerCategory-inner","interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmpoolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool::FilterField::OwnerCategory-inner"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.poolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool-btnSearch","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmpoolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool-btnSearch"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.poolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool-btnSearch","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmpoolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool-btnSearch"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.poolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool-btnSearch","interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmpoolui::xRFMxCU_PoolList--fe::FilterBar::xRFMxCU_Pool-btnSearch"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.poolui::xRFMxCU_PoolList--fe::table::allTab::LineItem-innerTable-rows-row0"},"wdio_ui5_key":"rfmpoolui::xRFMxCU_PoolList--fe::table::allTab::LineItem-innerTable-rows-row0"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.poolui::xRFMxCU_PoolList--fe::table::allTab::LineItem-innerTable-rows-row0"},"wdio_ui5_key":"rfmpoolui::xRFMxCU_PoolList--fe::table::allTab::LineItem-innerTable-rows-row0"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.poolui::xRFMxCU_PoolList--fe::table::allTab::LineItem-innerTable-rows-row0"},"wdio_ui5_key":"rfmpoolui::xRFMxCU_PoolList--fe::table::allTab::LineItem-innerTable-rows-row0"}]}
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
@@ -185,7 +185,7 @@ TypeError: Cannot read properties of undefined (reading 'match')
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessObjects\SelectionRules.spec.js:323:48)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should filter created Program" time="0.537">
+    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should filter created Program" time="0.579">
       <failure/>
       <error message="Cannot read properties of undefined (reading 'match')"/>
       <system-out><![CDATA[
@@ -196,8 +196,8 @@ RESULT: undefined
 RESULT: undefined
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
@@ -206,22 +206,22 @@ TypeError: Cannot read properties of undefined (reading 'match')
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessObjects\SelectionRules.spec.js:323:48)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check navigation to selection rules" time="2.45">
+    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check navigation to selection rules" time="2.324">
       <skipped/>
       <system-out><![CDATA[
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.poolui::xRFMxCU_PoolObjectPage--fe::DataFieldForIntentBasedNavigation::SelectionRule::manage","interaction":{"idSuffix":"content"}},"wdio_ui5_key":"rfmpoolui::xRFMxCU_PoolObjectPage--fe::DataFieldForIntentBasedNavigation::SelectionRule::manage"}]}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.poolui::xRFMxCU_PoolObjectPage--fe::DataFieldForIntentBasedNavigation::SelectionRule::manage","interaction":{"idSuffix":"content"}},"wdio_ui5_key":"rfmpoolui::xRFMxCU_PoolObjectPage--fe::DataFieldForIntentBasedNavigation::SelectionRule::manage"}]}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"rfm.poolui::xRFMxCU_PoolObjectPage--fe::DataFieldForIntentBasedNavigation::SelectionRule::manage","interaction":{"idSuffix":"content"}},"wdio_ui5_key":"rfmpoolui::xRFMxCU_PoolObjectPage--fe::DataFieldForIntentBasedNavigation::SelectionRule::manage"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"shellAppTitle"},"wdio_ui5_key":"shellAppTitle"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"id":"shellAppTitle"},"wdio_ui5_key":"shellAppTitle"}]}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"id":"shellAppTitle"},"wdio_ui5_key":"shellAppTitle"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.607"},"getTitle",[]]}
-RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.607"},"getTitle",[]]}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.606"},"getTitle",[]]}
+RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.606"},"getTitle",[]]}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
@@ -232,17 +232,17 @@ Received: "Funding Program"
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessObjects\SelectionRules.spec.js:402:36)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check navigation to selection rules" time="1.051">
+    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check navigation to selection rules" time="0.954">
       <failure/>
       <error message="expect(received).toEqual(expected) // deep equality&#xA;&#xA;Expected: &quot;Selection Rule&quot;&#xA;Received: &quot;Funding Program&quot;"/>
       <system-out><![CDATA[
 RESULT: undefined
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.607"},"getTitle",[]]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.606"},"getTitle",[]]}
 RESULT: {}
-RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.939D44F984AE5E75FD974EFB2BA1FFA3.d.5DC47902E10A4A29A8354F484FA4DF30.e.607"},"getTitle",[]]}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+RESULT: {"script":"<script> [21 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.9A70BC2D23C40B6E57989B23465CFE88.d.68817A83818B9AA34FAF934FFA1E15DB.e.606"},"getTitle",[]]}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
@@ -253,26 +253,26 @@ Received: "Funding Program"
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessObjects\SelectionRules.spec.js:402:36)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check the addition of master data fields" time="2.909">
+    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check the addition of master data fields" time="3.034">
       <skipped/>
       <system-out><![CDATA[
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"path":"","propertyPath":"/AppScenario","modelName":"localModel"},"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"path\":\"\",\"propertyPath\":\"/AppScenario\",\"modelName\":\"localModel\"}"}]}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"path":"","propertyPath":"/AppScenario","modelName":"localModel"},"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"path\":\"\",\"propertyPath\":\"/AppScenario\",\"modelName\":\"localModel\"}"}]}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"path":"","propertyPath":"/AppScenario","modelName":"localModel"},"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"path\":\"\",\"propertyPath\":\"/AppScenario\",\"modelName\":\"localModel\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.CheckBox","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","properties":{"editable":true},"searchOpenDialogs":true,"ancestor":{"controlType":"sap.m.StandardTreeItem","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"modelName":"localModel","path":"/MasterDataFields/0/nodes/1"},"ancestor":{"id":"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree","searchOpenDialogs":true}},"interaction":{"idSuffix":"CbBg"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.CheckBox{\"editable\":true}{\"controlType\":\"sap.m.StandardTreeItem\",\"viewName\":\"rfm.selectionruleui.view.SelectionRule\",\"viewId\":\"application-SelectionRule-manage-component---SelectionRule\",\"bindingPath\":{\"modelName\":\"localModel\",\"path\":\"/MasterDataFields/0/nodes/1\"},\"ancestor\":{\"id\":\"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree\",\"searchOpenDialogs\":true}}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.CheckBox","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","properties":{"editable":true},"searchOpenDialogs":true,"ancestor":{"controlType":"sap.m.StandardTreeItem","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"modelName":"localModel","path":"/MasterDataFields/0/nodes/1"},"ancestor":{"id":"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree","searchOpenDialogs":true}},"interaction":{"idSuffix":"CbBg"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.CheckBox{\"editable\":true}{\"controlType\":\"sap.m.StandardTreeItem\",\"viewName\":\"rfm.selectionruleui.view.SelectionRule\",\"viewId\":\"application-SelectionRule-manage-component---SelectionRule\",\"bindingPath\":{\"modelName\":\"localModel\",\"path\":\"/MasterDataFields/0/nodes/1\"},\"ancestor\":{\"id\":\"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree\",\"searchOpenDialogs\":true}}"}]}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.CheckBox","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","properties":{"editable":true},"searchOpenDialogs":true,"ancestor":{"controlType":"sap.m.StandardTreeItem","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"modelName":"localModel","path":"/MasterDataFields/0/nodes/1"},"ancestor":{"id":"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree","searchOpenDialogs":true}},"interaction":{"idSuffix":"CbBg"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.CheckBox{\"editable\":true}{\"controlType\":\"sap.m.StandardTreeItem\",\"viewName\":\"rfm.selectionruleui.view.SelectionRule\",\"viewId\":\"application-SelectionRule-manage-component---SelectionRule\",\"bindingPath\":{\"modelName\":\"localModel\",\"path\":\"/MasterDataFields/0/nodes/1\"},\"ancestor\":{\"id\":\"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree\",\"searchOpenDialogs\":true}}"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"add"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"add\"}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"add"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"add\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"add"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"add\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"path":"/Data/MasterDataRule/Clauses/0/Clauses/0","propertyPath":"FieldDescription","modelName":"treeModel"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Text{\"path\":\"/Data/MasterDataRule/Clauses/0/Clauses/0\",\"propertyPath\":\"FieldDescription\",\"modelName\":\"treeModel\"}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"path":"/Data/MasterDataRule/Clauses/0/Clauses/0","propertyPath":"FieldDescription","modelName":"treeModel"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Text{\"path\":\"/Data/MasterDataRule/Clauses/0/Clauses/0\",\"propertyPath\":\"FieldDescription\",\"modelName\":\"treeModel\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"path":"/Data/MasterDataRule/Clauses/0/Clauses/0","propertyPath":"FieldDescription","modelName":"treeModel"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Text{\"path\":\"/Data/MasterDataRule/Clauses/0/Clauses/0\",\"propertyPath\":\"FieldDescription\",\"modelName\":\"treeModel\"}"}]}
 RESULT: undefined
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
@@ -283,7 +283,7 @@ Received: undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessObjects\SelectionRules.spec.js:489:50)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check the addition of master data fields" time="0.582">
+    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check the addition of master data fields" time="0.545">
       <failure/>
       <error message="expect(received).toEqual(expected) // deep equality&#xA;&#xA;Expected: &quot;Salary&quot;&#xA;Received: undefined"/>
       <system-out><![CDATA[
@@ -291,8 +291,8 @@ RESULT: undefined
 RESULT: undefined
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
@@ -304,29 +304,29 @@ Received: undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessObjects\SelectionRules.spec.js:489:50)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check the update of master data fields" time="3.39">
+    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check the update of master data fields" time="4.641">
       <skipped/>
       <system-out><![CDATA[
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.ui.core.Icon","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","properties":{"src":{"regex":{"source":"edit"}}}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.ui.core.Icon{\"src\":{\"regex\":{\"source\":\"edit\"}}}"}]}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.ui.core.Icon","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","properties":{"src":{"regex":{"source":"edit"}}}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.ui.core.Icon{\"src\":{\"regex\":{\"source\":\"edit\"}}}"}]}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.ui.core.Icon","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","properties":{"src":{"regex":{"source":"edit"}}}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.ui.core.Icon{\"src\":{\"regex\":{\"source\":\"edit\"}}}"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Input","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"path":"/Rules/0","propertyPath":"LowValue","modelName":"localModel"},"searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Input{\"path\":\"/Rules/0\",\"propertyPath\":\"LowValue\",\"modelName\":\"localModel\"}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Input","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"path":"/Rules/0","propertyPath":"LowValue","modelName":"localModel"},"searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Input{\"path\":\"/Rules/0\",\"propertyPath\":\"LowValue\",\"modelName\":\"localModel\"}"}]}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Input","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"path":"/Rules/0","propertyPath":"LowValue","modelName":"localModel"},"searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Input{\"path\":\"/Rules/0\",\"propertyPath\":\"LowValue\",\"modelName\":\"localModel\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Input","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"path":"/Rules/0","propertyPath":"HighValue","modelName":"localModel"},"searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Input{\"path\":\"/Rules/0\",\"propertyPath\":\"HighValue\",\"modelName\":\"localModel\"}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Input","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"path":"/Rules/0","propertyPath":"HighValue","modelName":"localModel"},"searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Input{\"path\":\"/Rules/0\",\"propertyPath\":\"HighValue\",\"modelName\":\"localModel\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Input","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"path":"/Rules/0","propertyPath":"HighValue","modelName":"localModel"},"searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Input{\"path\":\"/Rules/0\",\"propertyPath\":\"HighValue\",\"modelName\":\"localModel\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"update"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"update\"}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"update"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"update\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"update"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"update\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"path":"/Data/MasterDataRule/Clauses/0/Clauses/0","propertyPath":"LowValue","modelName":"treeModel"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Text{\"path\":\"/Data/MasterDataRule/Clauses/0/Clauses/0\",\"propertyPath\":\"LowValue\",\"modelName\":\"treeModel\"}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"path":"/Data/MasterDataRule/Clauses/0/Clauses/0","propertyPath":"LowValue","modelName":"treeModel"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Text{\"path\":\"/Data/MasterDataRule/Clauses/0/Clauses/0\",\"propertyPath\":\"LowValue\",\"modelName\":\"treeModel\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Text","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"path":"/Data/MasterDataRule/Clauses/0/Clauses/0","propertyPath":"LowValue","modelName":"treeModel"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Text{\"path\":\"/Data/MasterDataRule/Clauses/0/Clauses/0\",\"propertyPath\":\"LowValue\",\"modelName\":\"treeModel\"}"}]}
 RESULT: undefined
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
@@ -337,7 +337,7 @@ Received: undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessObjects\SelectionRules.spec.js:577:58)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check the update of master data fields" time="0.513">
+    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check the update of master data fields" time="0.522">
       <failure/>
       <error message="expect(received).toEqual(expected) // deep equality&#xA;&#xA;Expected: &quot;1000&quot;&#xA;Received: undefined"/>
       <system-out><![CDATA[
@@ -346,8 +346,8 @@ RESULT: undefined
 RESULT: undefined
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
@@ -359,39 +359,39 @@ Received: undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessObjects\SelectionRules.spec.js:577:58)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check deletion of master data fields" time="1.906">
+    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check deletion of master data fields" time="1.827">
       <system-out><![CDATA[
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","properties":{"type":"Transparent"},"searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"type\":\"Transparent\"}"}]}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","properties":{"type":"Transparent"},"searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"type\":\"Transparent\"}"}]}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","properties":{"type":"Transparent"},"searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"type\":\"Transparent\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"update"},"searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"update\"}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"update"},"searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"update\"}"}]}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"update"},"searchOpenDialogs":true,"interaction":{"idSuffix":"inner"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"update\"}"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"save"},"interaction":{"idSuffix":"content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"save\"}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"save"},"interaction":{"idSuffix":"content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"save\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"save"},"interaction":{"idSuffix":"content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"save\"}"}]}
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 ]]></system-out>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check Save action" time="1.46">
+    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check Save action" time="1.386">
       <skipped/>
       <system-out><![CDATA[
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.CheckBox","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","properties":{"editable":true},"searchOpenDialogs":true,"ancestor":{"controlType":"sap.m.StandardTreeItem","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"modelName":"localModel","path":"/MasterDataFields/0/nodes/1"},"ancestor":{"id":"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree","searchOpenDialogs":true}},"interaction":{"idSuffix":"CbBg"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.CheckBox{\"editable\":true}{\"controlType\":\"sap.m.StandardTreeItem\",\"viewName\":\"rfm.selectionruleui.view.SelectionRule\",\"viewId\":\"application-SelectionRule-manage-component---SelectionRule\",\"bindingPath\":{\"modelName\":\"localModel\",\"path\":\"/MasterDataFields/0/nodes/1\"},\"ancestor\":{\"id\":\"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree\",\"searchOpenDialogs\":true}}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.CheckBox","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","properties":{"editable":true},"searchOpenDialogs":true,"ancestor":{"controlType":"sap.m.StandardTreeItem","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"modelName":"localModel","path":"/MasterDataFields/0/nodes/1"},"ancestor":{"id":"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree","searchOpenDialogs":true}},"interaction":{"idSuffix":"CbBg"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.CheckBox{\"editable\":true}{\"controlType\":\"sap.m.StandardTreeItem\",\"viewName\":\"rfm.selectionruleui.view.SelectionRule\",\"viewId\":\"application-SelectionRule-manage-component---SelectionRule\",\"bindingPath\":{\"modelName\":\"localModel\",\"path\":\"/MasterDataFields/0/nodes/1\"},\"ancestor\":{\"id\":\"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree\",\"searchOpenDialogs\":true}}"}]}
+RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.CheckBox","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","properties":{"editable":true},"searchOpenDialogs":true,"ancestor":{"controlType":"sap.m.StandardTreeItem","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"modelName":"localModel","path":"/MasterDataFields/0/nodes/1"},"ancestor":{"id":"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree","searchOpenDialogs":true}},"interaction":{"idSuffix":"CbBg"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.CheckBox{\"editable\":true}{\"controlType\":\"sap.m.StandardTreeItem\",\"viewName\":\"rfm.selectionruleui.view.SelectionRule\",\"viewId\":\"application-SelectionRule-manage-component---SelectionRule\",\"bindingPath\":{\"modelName\":\"localModel\",\"path\":\"/MasterDataFields/0/nodes/1\"},\"ancestor\":{\"id\":\"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree\",\"searchOpenDialogs\":true}}"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"add"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"add\"}"}]}
-RESULT: {}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"add"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"add\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"add"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"add\"}"}]}
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {}
 ]]></system-out>
       <system-err><![CDATA[
@@ -402,25 +402,25 @@ Received: undefined
     at Context.<anonymous> (D:\a\1\s\test\specs\BusinessObjects\SelectionRules.spec.js:769:46)
 ]]></system-err>
     </testcase>
-    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check Save action" time="1.456">
+    <testcase classname="chrome.140_0_7339_186.windows.Selection_Rules" name="Should check Save action" time="1.463">
       <failure/>
       <error message="expect(received).toEqual(expected) // deep equality&#xA;&#xA;Expected: &quot;Salary&quot;&#xA;Received: undefined"/>
       <system-out><![CDATA[
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.CheckBox","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","properties":{"editable":true},"searchOpenDialogs":true,"ancestor":{"controlType":"sap.m.StandardTreeItem","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"modelName":"localModel","path":"/MasterDataFields/0/nodes/1"},"ancestor":{"id":"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree","searchOpenDialogs":true}},"interaction":{"idSuffix":"CbBg"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.CheckBox{\"editable\":true}{\"controlType\":\"sap.m.StandardTreeItem\",\"viewName\":\"rfm.selectionruleui.view.SelectionRule\",\"viewId\":\"application-SelectionRule-manage-component---SelectionRule\",\"bindingPath\":{\"modelName\":\"localModel\",\"path\":\"/MasterDataFields/0/nodes/1\"},\"ancestor\":{\"id\":\"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree\",\"searchOpenDialogs\":true}}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.CheckBox","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","properties":{"editable":true},"searchOpenDialogs":true,"ancestor":{"controlType":"sap.m.StandardTreeItem","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"modelName":"localModel","path":"/MasterDataFields/0/nodes/1"},"ancestor":{"id":"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree","searchOpenDialogs":true}},"interaction":{"idSuffix":"CbBg"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.CheckBox{\"editable\":true}{\"controlType\":\"sap.m.StandardTreeItem\",\"viewName\":\"rfm.selectionruleui.view.SelectionRule\",\"viewId\":\"application-SelectionRule-manage-component---SelectionRule\",\"bindingPath\":{\"modelName\":\"localModel\",\"path\":\"/MasterDataFields/0/nodes/1\"},\"ancestor\":{\"id\":\"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree\",\"searchOpenDialogs\":true}}"}]}
 RESULT: {}
 RESULT: {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.CheckBox","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","properties":{"editable":true},"searchOpenDialogs":true,"ancestor":{"controlType":"sap.m.StandardTreeItem","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","bindingPath":{"modelName":"localModel","path":"/MasterDataFields/0/nodes/1"},"ancestor":{"id":"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree","searchOpenDialogs":true}},"interaction":{"idSuffix":"CbBg"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.CheckBox{\"editable\":true}{\"controlType\":\"sap.m.StandardTreeItem\",\"viewName\":\"rfm.selectionruleui.view.SelectionRule\",\"viewId\":\"application-SelectionRule-manage-component---SelectionRule\",\"bindingPath\":{\"modelName\":\"localModel\",\"path\":\"/MasterDataFields/0/nodes/1\"},\"ancestor\":{\"id\":\"application-SelectionRule-manage-component---SelectionRule--idMasterDataTree\",\"searchOpenDialogs\":true}}"}]}
 RESULT: undefined
-COMMAND: POST /session/8745969846d81cd78d5adf4ad11bef19/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"add"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"add\"}"}]}
+COMMAND: POST /session/688560ea725549e2d8a004eb58ace7f0/execute/async - {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"add"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"add\"}"}]}
 RESULT: {"script":"<script> [21 bytes]","args":[{"forceSelect":true,"selector":{"controlType":"sap.m.Button","viewName":"rfm.selectionruleui.view.SelectionRule","viewId":"application-SelectionRule-manage-component---SelectionRule","i18NText":{"propertyName":"text","key":"add"},"searchOpenDialogs":true,"interaction":{"idSuffix":"BDI-content"}},"wdio_ui5_key":"rfmselectionruleui.view.SelectionRulesap.m.Button{\"propertyName\":\"text\",\"key\":\"add\"}"}]}
 RESULT: undefined
 RESULT: undefined
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {}
-COMMAND: DELETE /session/8745969846d81cd78d5adf4ad11bef19 - {}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
-COMMAND: GET /session/8745969846d81cd78d5adf4ad11bef19/screenshot - {}
+COMMAND: DELETE /session/688560ea725549e2d8a004eb58ace7f0 - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
+COMMAND: GET /session/688560ea725549e2d8a004eb58ace7f0/screenshot - {}
 RESULT: {}
 RESULT: {}
 ]]></system-out>
